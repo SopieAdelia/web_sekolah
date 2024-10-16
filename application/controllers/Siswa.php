@@ -147,4 +147,18 @@ class Siswa extends CI_Controller
 		);
 		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
 	}
+
+	public function delete($id_siswa)
+	{
+		//menghapus file foto lama
+		$guru = $this->m_siswa->detail($id_siswa);
+		if ($siswa->foto_siswa != "") {
+			unlink('./foto_siswa/' . $siswa->foto_siswa);
+		}
+		//end manghapus foto
+		$data = array('id_siswa' => $id_siswa);
+		$this->m_siswa->delete($data);
+		$this->session->set_flashdata('pesan', 'Data Berhasil Di Hapus!');
+		redirect('siswa');
+	}
 }

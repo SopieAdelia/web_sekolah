@@ -44,6 +44,12 @@
 	});
 </script>
 
+<!-- <script>
+	CKEDITOR.replace('editor');
+</script> -->
+<script>
+	initSample();
+</script>
 </body>
 
 </html>

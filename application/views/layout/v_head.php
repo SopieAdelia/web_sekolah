@@ -14,4 +14,5 @@
 	<link rel="stylesheet" type="text/css" href="<?php base_url() ?>template/template_frontend/plugins/OwlCarousel2-2.2.1/animate.css">
 	<link rel="stylesheet" type="text/css" href="<?php base_url() ?>template/template_frontend/styles/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="<?php base_url() ?>template/template_frontend/styles/responsive.css">
+
 </head>

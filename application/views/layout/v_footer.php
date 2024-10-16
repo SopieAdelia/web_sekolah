@@ -121,6 +121,7 @@
 <script src="<?= base_url() ?>template/template_frontend/plugins/easing/easing.js"></script>
 <script src="<?= base_url() ?>template/template_frontend/plugins/parallax-js-master/parallax.min.js"></script>
 <script src="<?= base_url() ?>template/template_frontend/js/custom.js"></script>
+
 </body>
 
 </html>
